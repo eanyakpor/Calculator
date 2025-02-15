@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles/styles.css">
+		<title> Calculator</title>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="grid-input">0</div>
+			<div class="grid-item-1" onClick="updateDisplay('1')">1</div>
+			<div class="grid-item-2" onClick="updateDisplay('2')">2</div>
+			<div class="grid-item-3" onClick="updateDisplay('3')">3</div>
+			<div class="grid-item-4" onClick="updateDisplay('4')">4</div>
+			<div class="grid-item-5" onClick="updateDisplay('5')">5</div>
+			<div class="grid-item-6" onClick="updateDisplay('6')">6</div>
+			<div class="grid-item-7" onClick="updateDisplay('7')">7</div>
+			<div class="grid-item-8" onClick="updateDisplay('8')">8</div>
+			<div class="grid-item-9" onClick="updateDisplay('9')">9</div>
+			<div class="grid-item-0" onClick="updateDisplay('0')">0</div>
+			<div class="grid-item-add" onClick="updateOperator('+')">+</div>
+			<div class="grid-item-subtract" onClick="updateOperator('-')">-</div>
+			<div class="grid-item-multiply" onClick="updateOperator('*')">x</div>
+			<div class="grid-item-divide" onClick="updateOperator('/')">/</div>
+			<div class="grid-item-dot" onClick="dotOperator()">.</div>
+			<div class="grid-item-equal" onClick="calculateResult()">=</div>
+			<div class="grid-item-AC" onClick="clearDisplay()">AC</div>
+		</div>
+	</body>
+	
+	</html>
+	<script src="src/index.js"></script>

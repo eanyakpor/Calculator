@@ -1,0 +1,138 @@
+body {
+	display: flex;
+	justify-content: center; /* Centers horizontally */
+	align-items: center; /* Centers vertically */
+	height: 100vh; /* Full viewport height */
+	margin: 0;
+  }
+
+.grid-container {
+	display: grid;
+	height: 40vh;
+	font-size: 50px;
+	grid-template-columns: repeat(4, 1fr); /* Creates 3 equal columns */
+	gap: 5px; /* Adds space between grid items */
+	width: 225px; /* Optional: Sets a fixed width */
+	background-color: lightgray;
+	padding: 10px;
+	justify-content: center;
+	border: 8px solid black;
+}
+.grid-input {
+	grid-column: span 4; /* Makes input span all columns */
+	grid-row: -2;
+	height: 20px;
+	font-size: 30px;
+	text-align: right;
+	padding: 10px;
+	border: 2px solid black;
+	outline: none;
+  }
+.grid-item-0:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-1:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-2:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-3:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-4:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-5:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-6:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-7:hover {
+	display: grid;
+	background-color: blue;
+	
+}
+.grid-item-8:hover {
+	display: grid;
+	background-color: blue;
+	
+	
+}
+.grid-item-9:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-multiply {
+	grid-column: 4;
+	grid-row: 4;
+	font-size: 50px;
+}
+.grid-item-multiply:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-add {
+	display: grid;
+	grid-column: 4; 
+	grid-row: 1;
+/* //	grid-area: 1 / col4-start / last-line / 6; */
+}
+.grid-item-add:hover {
+	display: grid;
+	background-color: blue;
+/* //	grid-area: 1 / col4-start / last-line / 6; */
+}
+.grid-item-subtract {
+	grid-column: 4; 
+	grid-row: 2;
+
+}
+.grid-item-subtract:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-divide {
+	grid-column: 4; 
+	grid-row: 3;
+}
+.grid-item-divide:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-equal { 
+	grid-column: 3; 
+	grid-row: 4;
+	
+}
+.grid-item-equal:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-dot {
+	grid-column: 2;
+	grid-row: 4;
+}
+.grid-item-dot:hover {
+	display: grid;
+	background-color: blue;
+}
+.grid-item-AC {
+  grid-column: 1 / span 4;
+  grid-row: 5;
+  font-size: 30px;
+}
+
+.grid-item-AC:hover {
+	display: grid;
+	background-color: red;
+}
+
